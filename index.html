@@ -1,0 +1,245 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Festividades de Mayo</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/app7.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--Grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/battalla.jpg','imagenes/maestro.jpg')">
+<div data-role="page" id="Principal" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+   <h1>Festividades de Mayo</h1>
+  </div>
+
+    
+   <div>
+    <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+     <li class="ui-first-child ui-last-child">
+       <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2>¿Que festividades hay en mayo?</h2>
+         <p>Da click para ver cuales son y en que fechas</p>
+      </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Dia del trabajo 1 de Mayo</h2>
+       <p>Da click para ver informacion</p>
+      </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Batalla de Puebla</h2>
+       <p>Da click para ver informacion del 5 de mayo</p>
+      </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Dia de las Madres</h2>
+       <p>Da click para ver informacion del 10 de  Mayo</p>
+      </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Dia del Maestro 15 de Mayo</h2>
+       <p>Da click para ver informacion del 15 de Mayo</p>
+      </a>
+     </li>
+   </ul>
+   </div>
+   <div data-role="footer" data-position="fixed" align="center" data-theme="a">
+      <div>
+        <img src="res/android/mdpi.png">
+      </div>
+      <div>
+       <h4></h4>
+       <h4>@Juan Pablo Marín Frias</h4>
+      </div>
+     </div>
+    </div> 
+      
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+     <h1>¿Cuales son las Festividades y sus fechas?</h1>
+     </div>
+<div data-role="content" align="center">
+    <div>
+    <h2>FESTIVIDADES Y FECHAS</h2>
+    <h2> • Dia del trabajo 1 de Mayo</h2>
+    <h2><img src="imagenes/trabajo (1).jpg"></h2>
+    <h2>• Batalla de Puebla 5 de Mayo</h2>
+    <h2> <img src="imagenes/batalla.jpg"></h2>
+    <h2>• Dia de las Madres 10 de Mayo</h2>
+    <p><img src="imagenes/madres.jpg"></p>
+    <h2> • Dia del maestro 15 de Mayo</h2>
+    <p><img src="imagenes/maestro.jpg"></p>
+    </div>
+    </div>
+          <div data-role="main" class="ui-content">
+   <div data-role="collapsible" data-content-theme="false">
+     <h1>Link para saber mas</h1>
+    <div>
+    <center>
+     <p> Este es el link Da CLICK en el:
+     <br>
+     </center>
+    </div>
+   <div>
+   <a href="http://actividadesfamilia.about.com/od/celebra/a/Calendario-De-Celebraciones-En-Mayo.htm">Esto es un enlace</a>
+</div>
+</div>
+</div>
+   <div data-role="footer" data-theme="a">
+   <div align="center">
+        <img src="res/android/mdpi.png">
+      </div>
+    <h4>@Juan Pablo Marin Frias</h4>
+   </div>
+   </div>
+   </div>  
+    
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a"> 
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+   <h1>Dia del Trabajo</h1>
+   </div>
+   <div data-role="content" align="center">
+    <div>
+    <h2>DIA DEL TRABAJO 1 DE MAYO</h2>
+    <h2> El Día Internacional de los Trabajadores o Primero de Mayo es la fiesta por antonomasia del movimiento obrero mundial. Es una jornada que se ha utilizado habitualmente para realizar diferentes reivindicaciones sociales y laborales a favor de las clases trabajadoras por parte, fundamentalmente, de los movimientos socialistas, anarquistas y comunistas, entre otros.</h2>
+    <h2><img src="imagenes/trabajo.jpg"></h2>
+    </div>
+    <div data-role="footer" data-theme="a">
+    <div align="center">
+        <img src="res/android/mdpi.png">
+      </div>
+     <h4>@Juan Pablo Marin Frias</h4>
+     </div>
+     </div>
+     </div>
+     
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>Batalla de Puebla 5 de Myao</h1>
+    </div>
+    <div data-role="content" align="center">
+     <div>
+       <h2>La batalla de Puebla fue un combate librado el 5 de mayo de 1862 en las cercanías de la ciudad de Puebla, entre los ejércitos de la República Mexicana, bajo el mando de Ignacio Zaragoza, y del Segundo Imperio Francés, dirigido por Charles Ferdinand Latrille, conde de Lorencez, durante la Segunda Intervención Francesa en México, cuyo resultado fue una victoria importante para los mexicanos ya que con unas fuerzas consideradas como inferiores lograron vencer a uno de los ejércitos más experimentados y respetados de su época. Pese a su éxito, la batalla no impidió la invasión del país, sólo la retrasó, sin embargo, sería la primera batalla de una guerra que finalmente México ganaría. Los franceses regresarían al siguiente año, con lo que se libró una segunda batalla en Puebla en la que se enfrentaron 35 000 franceses contra 29 000 mexicanos (defensa que duró 62 días), y lograrían avanzar hasta la Ciudad de México, lo que permitió establecer el Segundo Imperio Mexicano.</h2>
+       <p><img src="imagenes/batalla.jpg"></p>
+                 <div data-role="main" class="ui-content">
+   <div data-role="collapsible" data-content-theme="false">
+     <h1>Da click para ver un link de informacion</h1>
+     <div>
+    <center>
+     <p> Este es el link Da CLICK en el:
+     <br>
+     </center>
+    </div>
+   <div>
+   <a href="https://es.wikipedia.org/wiki/Batalla_de_Puebla">Esto es un enlace</a>
+</div>
+</div>
+</div>
+    <div>
+     <p>Esta es una foto de la batalla de Puebla  
+     <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image21','','imagenes/battalla.jpg',1)"><img src="imagenes/batalla.jpg" width="274" height="184" id="Image21"></a>:<br>
+     </div>
+   <div>
+     
+     </div>
+     </div>
+    </div>
+     </div>
+      </div>
+      <div data-role="footer" data-theme="a">
+      <div align="center">
+        <img src="res/android/mdpi.png"></div>
+      <h4>@Juan Pablo Marin Frias</h4>
+      </div>
+      </div>
+      </div>
+      
+      
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+        <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+        <center>
+        <img src="imagenes/madres.jpg">
+        <div data-role="main" class="ui-content">
+   <div data-role="collapsible" data-content-theme="false">
+     <h1>Da click para ver informacion del dia de las madres</h1>
+         <h1>Dia de las Madres 10 de Mayo</h1>
+        
+        <div data-role="content" align="center">
+          <div>
+           <h2>El Día de la Madre o Día de las Madres es una festividad que se celebra en honor a las madres en todo el mundo, en diferentes fechas del año según el país. Su origen contemporáneo se remitiría al Mother's Friendship Day y las reuniones Mother's Day Meetings organizadas en 1865 o 1868 por Ann Maria Reeves Jarvis, en que las madres se reunían para intercambiar opiniones sobre distintos temas de actualidad.</h2>
+        </div> 
+      </div>
+      </center>
+      <div data-role="footer" data-theme="a">
+      <div align="center">
+        <img src="res/android/mdpi.png" width="46" height="46">
+      </div>
+       <h4>@Juan Pablo Marin Fias</h4>
+       </div>
+       </div>
+       </div>
+       </div>
+       </div>
+       
+       
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+        <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+         <h1>Dia del Maestro 15 de Mayo</h1>
+        </div>
+        <div data-role="content" align="center">
+        <div>
+         <h2>Dia del Maestro</h2>
+         <h2>El Día del maestro es una festividad en la que se conmemora a las personas que hacen de la enseñanza su trabajo habitual, como maestros y profesores.
+
+La fecha de esta celebración varía entre los diferentes paises, si bien la UNESCO sugiere hacerlo el 5 de octubre, práctica que ha sido seguida por numerosas naciones.</h2>
+         <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image19','','imagenes/maestro.jpg',1)"><img src="imagenes/maestro.png" width="307" height="164" id="Image19"></a></p>
+         
+        </div>
+         </div>
+         <div data-role="footer" data-theme="a">
+         <div align="center">
+        <img src="res/android/mdpi.png" width="46" height="46">
+      </div>
+           <h4>@Juan Pablo Marin Frias</h4>
+           </div>
+           </div>
+           </div>
+
+</body>
+</html>
